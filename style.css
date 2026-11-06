@@ -2026,7 +2026,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
+}
+
+.project-actions .btn {
+  flex: 1 1 0;
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  justify-content: center;
 }
 
 /* ==========================================================================
