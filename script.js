@@ -324,6 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const titles = [
       "AI/ML Research Enthusiast & Systems Architect",
       "Computer Vision & Deep Learning Researcher",
+      "Local Air-Gapped LLM & Dynamic Intelligence Researcher",
       "Empirical ML Modeling & Credit Risk Specialist",
       "Real-Time IDPS & Raw Socket Security Architect",
       "Passionate about Novel Neural Architectures & Research"
@@ -457,7 +458,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const telemetryFeeds = [
       "KERNEL STREAMING: Scapy socket packet analyzer active on eth0 • 0 dropped frames",
       "VISION ENGINE: OpenCV 60 FPS multi-player contour tracking calibrated",
-      "LLM SYNTHESIS: Schema AST verified • Safe read-only database isolation active",
+      "LLM RESEARCH: Evaluating local air-gapped NLQ-to-SQL dynamic architectures • Zero cloud egress",
       "FINTECH MODEL: Credit scoring pipeline calibrated with AUC-ROC 0.942",
       "FATIGUE MONITOR: Android vision PERCLOS real-time threshold monitoring",
       "SYSTEM STATUS: Khayam Khalid Abbasi available for AI/ML engineering roles"
@@ -1046,32 +1047,36 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     nlq: {
-      tag: 'Generative AI & Database Engineering',
-      title: 'Schema-Aware Natural Language Query (NLQ) to SQL Chatbot',
+      tag: 'Active Research • Local Air-Gapped Dynamic Intelligence',
+      title: 'Air-Gapped Natural Language Query (NLQ) to SQL Engine (Active Research)',
       img: 'assets/project-nlq.jpg',
       html: `
-        <h4 class="modal-section-title"><i class="fa-solid fa-comments"></i> Conversational Data Extraction System</h4>
-        <p>Designed and built a natural language interface that converts natural questions from business users into dialect-accurate, performant SQL queries against enterprise relational databases.</p>
+        <h4 class="modal-section-title"><i class="fa-solid fa-flask-vial"></i> Ongoing Research &amp; Dynamic Intelligence Architecture</h4>
+        <p>This project is an <strong>active empirical research endeavor</strong> focused on engineering an air-gapped conversational AI interface that empowers business users to interrogate complex relational databases in plain English without writing SQL.</p>
+        <p>Crucially, the entire system is being developed to run <strong>100% locally in an air-gapped environment</strong> without external cloud APIs, eliminating third-party latency, cost, and ensuring zero enterprise data or schema leakage.</p>
+
+        <h4 class="modal-section-title"><i class="fa-solid fa-microscope"></i> Multi-Architecture Research &amp; Benchmarking</h4>
+        <p>Currently researching, iterating, and benchmarking diverse model architectures—including local quantized Small Language Models (SLMs), dynamic context grounding, agentic reasoning loops, and schema reflection—to maximize SQL dialect accuracy and dynamic intelligence on edge/on-premise compute.</p>
 
         <div class="modal-code-snippet">
-# NLQ Data Pipeline:
-[User Query: "Show top 5 customers with highest spend in 2024"]
+# Air-Gapped NLQ Architecture (Active Research Pipeline):
+[User Natural Language Query: "Find top 5 customers with highest spend in 2024"]
        │
-       ▼ (Node.js & TypeScript Backend Engine)
-[Schema Introspection & Semantic Context Injection]
+       ▼ (100% Local Air-Gapped Runtime • Zero Network Egress)
+[Dynamic Schema Introspection &amp; Semantic Context Injection]
        │
-       ▼ (LLM Synthesis with Guardrailed Few-Shot Prompting)
-[Generated SQL Syntax Tree]
+       ▼ (Dynamic Intelligence Engine • Multi-Architecture Benchmark / Routing)
+[Candidate SQL Query Syntax Tree Generation]
        │
-       ▼ (AST Validation: Strictly Block DROP, DELETE, ALTER, UPDATE)
-[Read-Only Database Connection Execution Pool]
+       ▼ (AST Security Guardrail: Enforce SELECT &amp; Strictly Block DROP, DELETE, ALTER, UPDATE)
+[Isolated Read-Only Database Connection Pool]
        │
        ▼
-[JSON Results Formatted into Human-Readable Tables & Natural Summaries]
+[Tabular Data Serialization &amp; Human-Readable Synthesized Response]
         </div>
 
-        <h4 class="modal-section-title"><i class="fa-solid fa-lock"></i> Security Guardrails & Safety</h4>
-        <p>Incorporated rigorous Abstract Syntax Tree (AST) query validation to safeguard database integrity, ensuring no destructive statements can be executed, alongside schema-aware prompting that eliminates hallucinations.</p>
+        <h4 class="modal-section-title"><i class="fa-solid fa-shield-halved"></i> Security Guardrails &amp; Hallucination Prevention</h4>
+        <p>Combines schema-aware prompting with dynamic context injection and strict Abstract Syntax Tree (AST) validation. The AST security guardrail inspects every query node prior to execution, ensuring only read-only statements reach the database. Built with a modular backend in <strong>TypeScript &amp; Node.js</strong> with conversational state retention and an interactive React frontend.</p>
       `
     },
     drowsiness: {
